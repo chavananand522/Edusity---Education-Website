@@ -1,16 +1,61 @@
-# React + Vite
+# 🎓 Edusity - Education Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Edusity is a modern and responsive education website built using **React.js**.  
+This project is created to practice and demonstrate frontend development skills using React, CSS, and reusable components.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Coming Soon
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Edusity--Education-Website](https://github.com/chavananand522/Edusity--Education-Website)
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React.js
+- HTML5
+- CSS3
+- JavaScript
+- Vite
+- React Components
+- Responsive Web Design
+
+## ✨ Features
+
+- 🏠 Home page
+- 🎓 Education programs section
+- 🏫 About University section
+- 🖼️ Campus gallery
+- 📱 Responsive design
+- 🧩 Reusable React components
+- 🎨 Modern and clean user interface
+- 🔗 Navigation menu
+- 📚 Programs section for different degrees
+
+## 📁 Project Structure
+
+```text
+Edusity--Education-Website
+│
+├── public
+│
+├── src
+│   ├── assets
+│   ├── Components
+│   │   ├── About
+│   │   ├── Campus
+│   │   ├── Footer
+│   │   ├── Hero
+│   │   ├── Navbar
+│   │   ├── Programs
+│   │   └── Title
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
