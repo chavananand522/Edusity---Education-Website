@@ -1,16 +1,27 @@
 import React from 'react'
 import './Hero.css'
+import hero_video from '../../assets/vit-small.mp4'
 
-import dark_arrow from '../../assets/dark-arrow.png'
 const Hero = () => {
     return (
-        <div className='hero container'>
-            <div className='hero-txt'>
-                <h1>We ensure better education for a better world</h1>
-                <p>Our cutting-edge curriculum is designed to empower students
-                    with the knowledge, skills, and experiences needed to excel in the
-                    dynamic field of education.  </p>
-                    <button className='btn'>Explore More <img src={dark_arrow} alt="" /> </button>
+        <div className="hero">
+
+            <video
+                className="hero-video"
+                src={hero_video}
+                autoPlay
+                muted
+                loop
+                playsInline
+            ></video>
+
+            <div className="hero-txt">
+                
+
+                <h1>
+                    A Journey<br />
+                    To Excellence
+                </h1>
             </div>
 
         </div>
